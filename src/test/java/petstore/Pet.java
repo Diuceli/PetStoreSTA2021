@@ -14,7 +14,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.contains;
 
 //3- Classe
-public class Pet{
+public class Pet {
     //3.1- Atributos
     String uri = "https://petstore.swagger.io/v2/pet"; //endereço da entidade Pet
 
@@ -52,7 +52,7 @@ public class Pet{
 
    @Test(priority=2)
    public void consultarPet(){
-        String petId = "20060503215";
+        String petId = "2006050315";
 
         String token =
                 given()
